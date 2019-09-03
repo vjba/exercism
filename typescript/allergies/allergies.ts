@@ -1,22 +1,31 @@
 export default class Allergies {
 
-    allergyscore: Uint8Array
-
-    constructor(allergyScore: number) {
-        this.allergyscore = new Uint8Array(allergyScore)
+    allergicItems: string[] = []
+    foodItems: { [key: string]: number } = {
+        eggs: 1,
+        peanuts: 2,
+        shellfish: 4,
+        strawberries: 8,
+        tomatoes: 16,
+        chocolate: 32,
+        pollen: 64,
+        cats: 128,
     }
 
-    allergicTo(item: string): boolean {
-        return false
+    constructor(givenScore: number) {
+        for (let key in this.foodItems) {
+            const foodItemScore = this.foodItems[key]
+            if (foodItemScore & givenScore) {
+                this.allergicItems.push(key)
+            }
+        }
+    }
+
+    allergicTo(foodItem: string): boolean {
+        return this.allergicItems.includes(foodItem)
     }
 
     list(): string[] {
-        return ['']
+        return this.allergicItems
     }
 }
-
-// takes allergy score
-// takes item name
-// gets item points
-// checks binary points for item points 
-// 
