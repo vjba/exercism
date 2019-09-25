@@ -2,27 +2,29 @@ export default class Bob {
 
     hey(sentence: string): string {
 
-        const sanitizedSentence = sentence.replace(/[^A-Za-z0-9?]/g, '')
+        sentence = sentence.replace(/[^A-Za-z,?]/g, '')
+
         let response = ''
 
-        if (sanitizedSentence === '') {
+
+        if (sentence.length === 0) {
             response = 'Fine. Be that way!'
+
+        } else if ((/^,+$/g).test(sentence)) { // hacky workaround
+            response = 'Whatever.'
+
+        } else if ((/^[A-Z,]+$/g).test(sentence)) { // 1 error
+            response = 'Whoa, chill out!'
+
+        } else if ((/^[A-Z0-9]+\?{1}$/g).test(sentence)) {
+            response = 'Calm down, I know what I\'m doing!'
+
+        } else if (/\?{1}$/g.test(sentence)) {
+            response = 'Sure.'
         } else {
-            let question = false
-            sanitizedSentence[sanitizedSentence.length - 1] === '?' ? question = true : null
-
-            const sentenceArray = Array.from(sanitizedSentence.replace(/[^A-Za-z]/g, ''))
-
-            if (sentenceArray.every(char => char.charCodeAt(0) >= 65 && char.charCodeAt(0) <= 90) && sentenceArray.length > 0) {
-                question ? response = 'Calm down, I know what I\'m doing!' : response = 'Whoa, chill out!'
-
-            } else if (question) {
-                response = 'Sure.'
-
-            } else {
-                response = 'Whatever.'
-            }
+            response = 'Whatever.'
         }
+
         return response
     }
 }

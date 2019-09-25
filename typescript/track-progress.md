@@ -47,9 +47,9 @@ For ease of readng on this list I'll be adding an 'L' + number as they appear in
 
 - [x] Space-Age
 - [x] Perfect Numbers
-- [ ] Luhn ***not passing***
+- [ ] Luhn  ***not passing***
 - [ ] Complex Numbers
-- [ ] Sum Of Multiples
+- [x] Sum Of Multiples
 - [ ] Grains
 - [ ] Pythagorean Triplet
 
@@ -57,7 +57,7 @@ For ease of readng on this list I'll be adding an 'L' + number as they appear in
 
 - [x] Pangram
 - [ ] Isogram
-- [ ] Roan Numerals
+- [ ] Roman Numerals
 - [ ] Series
 - [ ] Acronym
 - [ ] Anagram
