@@ -5,9 +5,9 @@ Due to the lack of mentors on the typescript track I've had to consistently swit
 * **Independent** because I can mark solutions as *complete* when passing all test suites.
 * **Mentored** because there are related *Side Exercises* to the major exercises, and the track is organized in more visually pleasing manner.
 
-For ease of readng on this list I'll be adding an 'L' + number as they appear in the [Exercism.io](https://exercism.io/tracks/typescript) track itself, with the first entry below the heading as the major exercise
+For ease of readng on this list I'll be adding an 'L' + number as they appear in the [Exercism.io](https://exercism.io/tracks/typescript) *MENTORED* track itself, with the first entry below the heading as the major exercise
 
-**Update** 2019-10-01: I cannot switch between modes any longer do to a notice that "*... This track is currently oversubscribed and only available in Practice Mode*" and as a result of this I am now unable to view the Mentored track layout. I'm now going to continue to work my way down the exercise list in ascending difficulty order.
+**Update** 2019-10-01: I cannot switch between modes any longer do to a notice that "*... This track is currently oversubscribed and only available in Practice Mode*" and as a result of this I am now unable to view the *Mentored* track layout. I'm now going to continue to work my way through the exercises in ascending difficulty order.
 
 ## L0
 
@@ -61,7 +61,7 @@ For ease of readng on this list I'll be adding an 'L' + number as they appear in
 - [ ] Isogram
 - [ ] Roman Numerals
 - [ ] Series
-- [ ] Acronym
+- [x] Acronym
 - [ ] Anagram
 - [ ] Phone Number
 - [ ] Largest Series Product
@@ -94,7 +94,3 @@ For ease of readng on this list I'll be adding an 'L' + number as they appear in
 - [ ] Simple Cipher
 - [ ] Wordy
 - [ ] List Ops
-
-## L8
-
-- [x] Robot Name
