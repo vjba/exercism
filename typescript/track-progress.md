@@ -62,7 +62,7 @@ For ease of readng on this list I'll be adding an 'L' + number as they appear in
 - [ ] Roman Numerals
 - [ ] Series
 - [x] Acronym
-- [ ] Anagram
+- [x] Anagram
 - [ ] Phone Number
 - [ ] Largest Series Product
 - [ ] Two Bucket
