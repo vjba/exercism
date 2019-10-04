@@ -58,8 +58,8 @@ For ease of readng on this list I'll be adding an 'L' + number as they appear in
 ## L5
 
 - [x] Pangram
-- [ ] Isogram
-- [ ] Roman Numerals
+- [x] Isogram
+- [x] Roman Numerals
 - [ ] Series
 - [x] Acronym
 - [x] Anagram
