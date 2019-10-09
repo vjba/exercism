@@ -52,15 +52,15 @@ For ease of readng on this list I'll be adding an 'L' + number as they appear in
 - [ ] Luhn  `Failing`
 - [ ] Complex Numbers
 - [x] Sum Of Multiples
-- [ ] Grains
-- [ ] Pythagorean Triplet
+- [x] Grains
+- [ ] Pythagorean Triplet `Failing`
 
 ## L5
 
 - [x] Pangram
 - [x] Isogram
 - [x] Roman Numerals
-- [ ] Series
+- [x] Series
 - [x] Acronym
 - [x] Anagram
 - [ ] Phone Number
@@ -84,7 +84,7 @@ For ease of readng on this list I'll be adding an 'L' + number as they appear in
 
 - [ ] Matrix `Failing`
 - [x] Robot Name
-- [ ] Grade School
+- [x] Grade School
 - [ ] Clock
 - [ ] Secret Handshake
 - [ ] Binary Search

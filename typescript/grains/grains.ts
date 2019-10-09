@@ -19,6 +19,6 @@ export default class Grains {
     }
 
     static total(): number { // failing
-        return this.totalGrains
+        return (2 ** 64) - 1
     }
 }
