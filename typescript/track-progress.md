@@ -94,3 +94,7 @@ For ease of readng on this list I'll be adding an 'L' + number as they appear in
 - [ ] Simple Cipher
 - [ ] Wordy
 - [ ] List Ops
+
+## Medium
+
+- [x] Run Length Encoding
