@@ -63,7 +63,7 @@ For ease of readng on this list I'll be adding an 'L' + number as they appear in
 - [x] Series
 - [x] Acronym
 - [x] Anagram
-- [ ] Phone Number
+- [x] Phone Number
 - [ ] Largest Series Product
 - [ ] Two Bucket
 - [ ] Variable Length Quantity
@@ -85,7 +85,7 @@ For ease of readng on this list I'll be adding an 'L' + number as they appear in
 - [ ] Matrix `Failing`
 - [x] Robot Name
 - [x] Grade School
-- [ ] Clock
+- [x] Clock
 - [ ] Secret Handshake
 - [ ] Binary Search
 - [ ] Linked List
