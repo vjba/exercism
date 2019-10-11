@@ -98,3 +98,4 @@ For ease of readng on this list I'll be adding an 'L' + number as they appear in
 ## Medium
 
 - [x] Run Length Encoding
+- [x] Flatten Array
