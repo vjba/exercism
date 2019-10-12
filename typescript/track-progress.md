@@ -76,7 +76,7 @@ For ease of readng on this list I'll be adding an 'L' + number as they appear in
 - [ ] ISBN Verifier
 - [ ] Proverb
 - [ ] House
-- [ ] Beer Song
+- [x] Beer Song
 - [ ] Say
 - [ ] Food Chain
 
@@ -99,3 +99,4 @@ For ease of readng on this list I'll be adding an 'L' + number as they appear in
 
 - [x] Run Length Encoding
 - [x] Flatten Array
+- [x] Accumulator
